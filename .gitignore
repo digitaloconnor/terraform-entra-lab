@@ -1,0 +1,32 @@
+# Local .terraform directories (providers and modules downloaded by terraform init)
+.terraform/
+
+# State files: contain resource IDs and can contain secrets
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files: may contain secrets
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Saved plan files (can contain sensitive values)
+*.tfplan
+tfplan
+
+# macOS
+.DS_Store
