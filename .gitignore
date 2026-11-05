@@ -30,3 +30,6 @@ tfplan
 
 # macOS
 .DS_Store
+
+# Course PDFs: paid course material, keep local only
+Documents and slides/
